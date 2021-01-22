@@ -7,7 +7,7 @@ function kilometerToMeter (km){
     if (km == ( 0 || undefined) || km < 0) {
       return "Value Can't be zero or undefined or negative";
     }
-    var meter = km *1000; // 1 kilometer is eqal to 1000 meter
+    var meter = km *1000; // 1 kilometer is equal to 1000 meter
   
     return meter;
   }
